@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .2px;
+}
+
+body{
+    --color-gris-fondo:#ececec;
+    --color-verde-navbar:#78A200;
+    --color-mostaza:#FFBC2E;
+    --color-celeste:#00aae4;
+    --color-gris-fuente:#101010;
+    --color-ocre:#f9da4e; 
+    --color-verde-lima:#CBE26E; 
+}
+
+/* H */
+.linea-separacion{
+    border: 3px solid var(--color-verde-navbar);
+    margin: 0;
+}
+
+.espacio-responsive{
+    margin-bottom: 40px;
+}
+
+.espacio-responsive-medio{
+    margin-bottom: 15px;
+}
+
+.espacio-responsive-sup{
+    margin-top: 26px;
+}
+
+.breadcrumb-item{
+    font-size: 14px;
+}
+
+.nav0{
+    box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+}
+
+.nav1{
+    background-color: var(--color-gris-fondo);
+}
+
+.nav2{
+    background-color: var(--color-verde-navbar);
+}
+
+.nav-bar{
+    text-align: center;
+}
+
+.nav-item a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.carousel{
+    margin-top: 100px;
+}
+
+.resaltador_verde, .resaltador_verde_lima, .resaltador_mostaza{
+    padding: 0 5px;
+    display: inline;
+    color: var(--color-gris-fuente);
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.resaltador_mostaza{
+    background-color: var(--color-mostaza);
+}
+
+.resaltador_verde_lima{
+    background-color: var(--color-verde-lima);
+}
+
+.a-btn-verde{
+    background-color: var(--color-verde-navbar);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;    
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.a-btn-celeste{
+    background-color: var(--color-celeste);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;    
+    color: var(--color-gris-fuente);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cafecito{
+    margin-left: 10px;
+    display: inline;
+}
+
+.img-redondeadas{
+    border-radius: 10px;
+}
+
+.transform_img:hover{
+    transform: scale(1.015);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+
+
+.contenedor_texto_banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor_itinerario{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor_itinerario h2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000;
+}
+
+.contenedor_itinerario img{
+    width: 80%;
+}
+
+.contenedor_itinerario{
+    filter:brightness(0.9);
+}
+
+.contenedor_itinerario:hover{
+    filter:brightness(1.2);
+}
+
+.titulo_banner{
+    font-size: 9vw;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 0px 11px #000000;
+}
+
+.subtitulo_banner{
+    font-size: 2.8vw;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 0px 11px #000000;
+    margin-bottom: -3%;
+}
+
+.destacado{
+    font-size: 18px;
+}
+
+
+
+.titulo_secundario{
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.titulo_secundario a{
+   text-decoration: none;
+   color: var(--color-gris-fuente);
+}
+
+.titulo_terciario{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.titulo_categorias{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.titulo_responsive_exc_gast{
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.p_texto{
+    font-size: 16px;
+    color: var(--color-gris-fuente);
+    margin-bottom:6px;
+    line-height: 28px;
+}
+
+.p_texto_responsive_exc_gast{
+    font-size: 16px;
+    color: var(--color-gris-fuente);
+    margin-bottom:6px;
+    line-height: 28px;
+}
+
+.cat-excursiones-3{
+    background-color: var(--color-gris-fondo);
+    border-radius: 15px;
+    padding: 20px;
+    height: auto;
+    margin: 0 4px;
+    width: 49% !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.cat-excursiones-2{
+    background-color: var(--color-gris-fondo);
+    border-radius: 15px;
+    padding: 10px;
+    height: auto;
+    margin: 0 4px 10px 4px;
+    width: 49% !important;
+    box-shadow: rgba(0, 0, 0, 0.11) 1px 1px 1px;
+}
+
+.row-excursiones{
+    display: flex;
+    justify-content: center;
+}
+
+.error_404{
+    text-align: center;
+    margin: 80px 0 160px 0;
+}
+
+.footer-redes{
+    padding: 10px 0;
+    background-color: var(--color-verde-navbar);
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.seguinos_redes{
+    font-size: 18px;
+    padding: 0 5px;
+    color: white;
+    line-height: 30px;
+}
+
+.redes-sociales h2{
+    margin: 0 8px;
+}
+
+.redes-sociales img{
+    width: 30px;
+    margin: 0 8px;
+}
+
+footer{
+    padding: 20px 0;
+    background-color: var(--color-gris-fuente);
+}
+
+footer h3, p{
+    font-size: 12px;
+    margin: 0;
+    line-height: 20px;
+    color: white;
+}
+
+.logo_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.derechos_reservados{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+.logo_contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_contacto img{
+    width: 300px;
+}
+
+.general-gris{
+    background-color: var(--color-gris-fondo);
+    padding: 30px 0;
+}
+
+
+
+.instagram{
+    background-color: white;
+    padding: 30px 0;
+}
+
+.main-general, .general{
+    padding: 30px 0 0 0;
+}
+
+.general-final{
+    padding: 30px 0;
+}
+
+.main-general{
+    margin-top: 100px;
+}
+
+.horario_vida_nocturna{
+    display: inherit;
+}
+
+.modal-dialog{
+    width: 70vh !important;
+}
+
+.p_texto_galeria{
+    font-size: 16px;
+    color: var(--color-gris-fuente);
+    margin-bottom:6px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.testimonios{
+    background-color: white;
+    height: auto;
+    padding: 20px 20px !important;
+}
+
+.testimonios img{
+    height: 30px;
+    margin-right:5px;
+}
+
+.col_suma_tu_aporte{
+    display: flex;
+    align-items: center;
+}
+
+.row_testimonios h3{
+    display: inline;
+}
+
+.p_texto_testimonio{
+    font-size: 14px;
+    color: var(--color-gris-fuente);
+    margin: 5px 0;
+    text-align: center;
+}
+
+.titulo_perfil{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    margin: 0;
+}
+
+.user_nombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_aporte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:396px) and (max-width:991px){
+    .form-cont-cafe{
+        display: flex;
+        justify-content: center;
+    }
+
+    .seguinos_redes{
+        font-size: 16px;
+    }
+
+    .carousel, .main-general{
+        margin-top: 68px;
+    }
+
+    .card-comercios{
+        width: 48% !important;
+    }
+
+    .p_texto{
+        font-size: 16px;
+        color: var(--color-gris-fuente);
+        margin-bottom:6px;
+        line-height: 28px;
+    }
+    
+    .logo_footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo_footer img{
+        margin: 0 20px;
+    }
+
+    .espacio-responsive-sup{
+        margin-top: 13px;
+    }
+
+    .como_llegar{
+        margin-top: 30px;
+    }
+
+    .contenedor_itinerario h2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000;
+    }
+
+    .contenedor_itinerario img{
+        width: 100%;
+    }
+
+    .cat-excursiones-3{
+        width: 90% !important;
+    }
+
+    .cat-excursiones-4{
+        width: 45% !important;
+        margin: 0 auto;
+    }
+   
+    .cat-excursiones-2{
+        width: 90% !important;
+        margin-bottom: 10px;
+    }
+
+    .separacion-categorias{
+        margin-bottom: 10px;
+    }
+
+    .modal-dialog{
+        max-width: 80% !important;
+        margin: 0 auto !important;
+    }
+
+    .bienvenida{
+        margin-bottom: 15px;
+    }
+
+    .nav-link{
+        text-align: center;
+    }
+
+    .img-instagram{
+        margin-bottom: 25px;
+    }
+
+    .instagram{
+        padding-bottom: 0;
+    }
+
+    .img-perfil-contacto{
+        margin-bottom: 10px;
+    }
+
+    .titulo_responsive_exc_gast{
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: 600;
+        margin-bottom: 3px;
+    }
+
+    .p_texto_responsive_exc_gast{
+        font-size: 14px;
+        color: var(--color-gris-fuente);
+        margin-bottom:10px;
+        line-height: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

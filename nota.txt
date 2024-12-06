@@ -1,0 +1,4 @@
+
+LINK a Whatsapp en el footer
+<a href="https://wa.me/message/453H6MFY2PTWM1" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp"></a>
+

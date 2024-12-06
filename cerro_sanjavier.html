@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="nombre">
+    <meta name="keywords" content="palabras claves">
+    <meta name="description" content="es una página de">
+    <meta name="copyright" content="propiedad de">
+    <meta name="robots" content="index"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>San Miguel de Tucumán Turismo | Jardín de la República</title>
+</head>
+<body>
+
+<!-- ----------------------------------------------------------------------------------------------------------  -->
+<!-- ------------------------------------------------ NAVBAR ------------------------------------------------  -->
+<!-- ----------------------------------------------------------------------------------------------------------  -->
+<!-- NAV 1 -->
+  <nav class="navbar navbar-expand-lg navbar-light nav1">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo_tucuman.png" alt="Turismo en Tucumán" width="70"></a>
+      <div class="clima">
+        <img src="img/icono_sol.png" width="30" alt="">
+        <h6>45° Caluroso</h6>
+      </div>
+      <button class="navbar-toggler p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" width="20"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end py-2" id="navbarSupportedContent">
+        <form class="d-flex">
+          <input class="form-control form-control-sm" size="15" type="search" placeholder="Buscar..." aria-label="Search">
+          <a class="a-btn-verde" href="">Buscar</a>
+          <!-- <button class="btn btn-outline-info btn-sm" type="submit">Buscar</button> -->
+          <a class="colabora a-btn-celeste" href="">Colaborá</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- NAV 2 -->
+  <nav class="navbar navbar-expand-lg py-1 nav2">
+    <div class="container d-flex justify-content-center">
+      <ul class="navbar-nav d-flex">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <li class="nav-item">
+            <a class="nav-link py-1 px-3" href="#" aria-current="page">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-1 px-3" href="#">Ciudad Historica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-1 px-3" href="#">Naturaleza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-1 px-3" href="#">Gastronomia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-1 ps-3 pe-0" href="#">Excursiones</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </nav>  
+  
+
+  
+<!-- ----------------------------------------------------------------------------------------------------------  -->
+<!-- ------------------------------------------------ RUTA ------------------------------------------------  -->
+<!-- ----------------------------------------------------------------------------------------------------------  -->
+  
+  <div class="container mt-2">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb"> 
+      <ol class="breadcrumb mb-0"> 
+        <li class="breadcrumb-item">
+          <a href="#">Inicio</a>
+        </li> 
+        <li class="breadcrumb-item active" aria-current="page">Naturaleza | San Javier</li>
+      </ol>
+    </nav>
+  </div>
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------------  -->
+<!-- ------------------------------------------------ MAIN ------------------------------------------------  -->
+<!-- ----------------------------------------------------------------------------------------------------------  -->
+
+<main>
+
+  <!-- ----------------------------------------------------------------------------------------------------------  -->
+  <!-- ------------------------------------------------ MAIN ------------------------------------------------  -->
+  <!-- ----------------------------------------------------------------------------------------------------------  -->
+
+  <!-- Section Principal -->
+  
+  
+  <section class="section-san-javier container mt-4">
+    <article class="row">
+      <h1 class="titulo_principal">¡Super recomendado para el finde! </h1>
+      <div class="col-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">  
+          <div class="carousel-indicators">  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>  
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>  
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>  
+          </div>  
+          <div class="carousel-inner">  
+            <div class="carousel-item active">  
+              <img src="img/cerro_sanjavier1.jpg" class="d-block w-100" alt="...">  
+            </div>  
+            <div class="carousel-item">  
+              <img src="img/cerro_sanjavier2.jpg" class="d-block w-100" alt="...">  
+            </div>
+            <div class="carousel-item">  
+              <img src="img/cerro_sanjavier3.jpg" class="d-block w-100" alt="...">  
+            </div>
+          </div>  
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">  
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>  
+              <span class="visually-hidden">Previous</span>  
+            </button>  
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">  
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>  
+              <span class="visually-hidden">Next</span>
+            </button> 
+        </div>
+      </div>
+      <div class="col-7">
+        <h4 class="titulo_categoria_naturaleza">NATURALEZA</h4>
+
+        <form>
+          <p class="clasificacion">
+            <input id="radio5" type="radio" name="estrellas" value="1">
+            <label for="radio5">★</label>
+            <input id="radio4" type="radio" name="estrellas" value="2">
+            <label for="radio4">★</label>
+            <input id="radio3" type="radio" name="estrellas" value="3">
+            <label for="radio3">★</label>
+            <input id="radio2" type="radio" name="estrellas" value="4">
+            <label for="radio2">★</label>
+            <input id="radio1" type="radio" name="estrellas" value="5">
+            <label for="radio1">★</label>
+          </p>
+        </form>
+
+        <h2 class="titulo_secundario">Viví un dia a pleno en San Javier</h2>
+        <p> Desde las sierras de San Javier se puede tener una vista panorámica de toda la ciudad de San Miguel de Tucumán, a tan sólo 25 kilómetros de distancia. Esta pequeña campiña serrana de ondulantes lomadas cubiertas de un verde tapiz, cuenta con numerosas residencias de veraneo y encierra uno de los paisajes más característicos de la provincia.</p>
+        <a class="a-btn-verde" href="">¿Cómo llegar?</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- Section Secundaria -->
+
+
+
+
+
+  <section class="section-san-javier container mt-4">
+    <article class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14245.813052898946!2d-65.3567158!3d-26.7936926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c9ad4f5217ae5a5!2sCerro%20San%20Javier!5e0!3m2!1ses-419!2sar!4v1661618352401!5m2!1ses-419!2sar" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
+  </section>
+
+  <section class="lugares-cercanos container mt-4">
+    <h1 class="titulo_principal">Lugares cercanos o recomendados</h1>
+      <article class="row gap-3">
+        <div class="col col-3">
+          <div class="card card-link" style="width: 18rem;">
+            <a href="">
+                <img src="img/cerro_sanjavier1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">VILLA NOGUÉS</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col col-3">
+          <div class="card card-link" style="width: 18rem;">
+            <a href="">
+                <img src="img/cerro_sanjavier2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">SENDERO LOS FUNICULARES</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col col-3">
+          <div class="card card-link" style="width: 18rem;">
+            <a href="">
+                <img src="img/cerro_sanjavier3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">RESERVA HORCO MOLLE</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </article>
+  </section>
+
+
+</main>
+
+
+  <!-- ----------------------------------------------------------------------------------------------------------  -->
+  <!-- ------------------------------------------------ FOOTER 1 ------------------------------------------------  -->
+  <!-- ----------------------------------------------------------------------------------------------------------  -->
+
+<footer class="footer-redes">
+  <section class="container redes-sociales">
+        <h6>Seguinos en las Redes Sociales</h6>
+        <img src="img/facebook.png" alt="">
+        <img src="img/instagram.png" alt="">
+        <img src="img/whatsapp.png" alt="">
+  </section>
+</footer>
+
+
+  <!-- ----------------------------------------------------------------------------------------------------------  -->
+  <!-- ------------------------------------------------ FOOTER 2 ------------------------------------------------  -->
+  <!-- ----------------------------------------------------------------------------------------------------------  -->
+
+
+
+<footer class="container-fluid">
+  <section class="container">
+    <div class="row">
+      <div class="col col-12 col-sm-12 col-md-4 ">
+        <img src="img/logo_tucuman_blanco.png" width="110" alt="" class="pt-2">
+        <div class="footer_1">
+            <a href="#" class="titulo_footer" >APP</a>
+            <a href="#" class="titulo_footer" >Conocenos</a>
+        </div>
+    </div>
+    <div class="col col-12 col-sm-12 col-md-4 footer_2">
+        <h6 class="titulo_footer">Información</h6>
+        <a href="#" class="titulo_footer">Términos y Condiciones</a>
+        <a href="#" class="titulo_footer">Privacidad</a>
+        <a href="#" class="titulo_footer">Botón de Arrepentimiento</a>
+    </div>
+    <div class="col col-12 col-sm-12 col-md-4">
+        <h6 class="titulo_footer">Contáctanos</h6>
+        <h6 class="titulo_footer">Mitre 124, BsAs, Argentina</h6>
+        <h6 class="titulo_footer">+54 9 1144556677</h6>
+        <h6 class="titulo_footer">bizary@librerias.com</h6>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col derechos_reservados">
+            <h6>Todos los derechos reservados</h6>
+        </div>
+    </div>
+    </div>
+  </section>
+</footer>
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
